@@ -1,0 +1,135 @@
+body{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+.Logo{
+    width: 200px;
+}
+
+.fotoPerfil{
+    width: 400px;
+border-top-left-radius: 50px;
+border-bottom-right-radius: 50px;
+box-shadow: #5E17EB;
+}
+
+.titulo{
+    color: aliceblue;
+    font-size: 3rem;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.775);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+em {
+    color: #5E17EB;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btnColor{
+    background-color: #5E17EB;
+    color: white;
+    font-weight: bold;
+}
+
+.btnColor:hover {
+    background-color: #a9a7ae;
+    color: rgb(43, 42, 42);
+}
+.subtitulo {
+    color: aliceblue;
+}
+.curved {
+    position: relative;
+    height: 50vh;
+    border-bottom-left-radius: 50% 17%;
+    border-bottom-right-radius: 50% 17%;
+    background: #100d27 ;
+}
+
+hr {
+    color: #d1d1d29e;
+    text-align: center;
+    
+}
+
+.textoProyecto {
+    color: aliceblue;
+    font-size: 3rem;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.775);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.cardProyecto{
+    background-color: transparent;
+    border: none;
+    -webkit-box-shadow: 10px 10px 72px -14px rgba(240,240,240,1);
+-moz-box-shadow: 10px 10px 72px -14px rgba(240,240,240,1);
+box-shadow: 10px 10px 72px -14px rgba(240,240,240,1);
+transition: all 0.5s;
+}
+
+.cardProyecto:hover {
+    transform: scale(1.1);
+
+}
+.imgProyecto{
+    border-radius: 30px;
+}
+.textoProyect{
+    color: aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+img{
+    cursor: pointer;
+}
+
+.cardImg{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    transition: all 0.5s;
+}
+.cardImg:hover{
+    transform: scale(1.1);
+}
+
+
+.imgHabilidades{
+    width: 160px;
+}
+
+.imgGithub{
+    width: 260px;
+}
+
+.cardContacto{
+    background-color: #00000065;
+    color: aliceblue;
+    -webkit-box-shadow: 10px 10px 72px -14px rgba(240,240,240,1);
+-moz-box-shadow: 10px 10px 72px -14px rgba(240,240,240,1);
+box-shadow: 10px 10px 72px -14px rgba(240,240,240,1);
+
+}
+
+.logoFooter{
+    width: 180px;
+}
+
+.footerr {
+    color: aliceblue;
+}
+
